@@ -1,0 +1,62 @@
+
+*{
+    padding: 0;
+    margin: 0;
+ list-style-type: none;
+}
+.OverflowX_hidden{
+overflow-x: hidden !important;
+}
+
+.tab_panel2 {
+display: none;
+}
+
+.tab_panel3 {
+display: none;
+}
+
+.tab_panel4 {
+display: none;
+}
+
+.active1 {
+background: #890808fa   !important;
+}
+.cursor_pointer{
+cursor: pointer;
+}
+/* ====================== PRELOADER CSS START ====================== */
+.preeloader_heading{
+font-size: 70px !important;
+}
+
+.no-scroll-x {
+overflow-y: unset !important;
+height: unset !important;
+}
+
+.overflow-no-yy {
+overflow-y: hidden !important;
+}
+
+#loading {
+z-index: 999;
+}
+.preeloader_animation { 
+-webkit-animation: loader 10s infinite alternate;
+animation: loader 10s infinite alternate;
+}
+@keyframes loader {
+0% {
+transform: scale(0.8);
+}
+
+50% {
+transform: scale(1);
+}
+
+100% {
+transform: scale(0.8);
+}
+}
